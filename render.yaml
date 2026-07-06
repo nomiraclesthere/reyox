@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: reyox
+    runtime: static
+    repo: https://github.com/nomiraclesthere/reyox
+    buildCommand: yarn build
+    staticPublishPath: ./dist
+version: '1'
